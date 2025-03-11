@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo Local</title>
+    <link rel="stylesheet" href="Estilos.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <!-- Contenedor del mapa a pantalla completa -->
+    <div id="map"></div>
+
+    <!-- Overlay para la barra de búsqueda -->
+    <div id="overlay">
+        <h1>Turismo Local</h1>
+        <div id="location-status">Cargando ubicación...</div>
+        <input type="text" id="search-box" placeholder="Buscar destinos...">
+        <div id="results"></div>
+    </div>
+
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="Script.js"></script>
+</body>
+</html>
