@@ -1,0 +1,6 @@
+@TEBAS_HostAddress = http://localhost:5143
+
+GET {{TEBAS_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
